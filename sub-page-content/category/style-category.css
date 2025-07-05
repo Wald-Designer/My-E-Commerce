@@ -160,11 +160,11 @@ h2{
   width: auto;
   height: 54px;
   padding: 0;
-  border-top: 10px solid #46a2fd;
-  margin-bottom: 50px;
+  border-top: 5px solid #46a2fd;
+  margin-top: 5px;
   align-content: center;
   justify-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 4px 30px -22px black;
 }
 h3{
@@ -287,7 +287,7 @@ button.buy:hover{
   margin: 0;
   padding: 0;
   top:0;
-  background-color: #242323;  
+  background-color: #f9f0f0;  
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.66);
   display: flex;
 }
@@ -306,13 +306,13 @@ h1{
   width: 100%;
   height:100%;
   font-weight: 12px;
-  color: rgb(230, 230, 232);
+  color: rgb(42, 42, 42);
 }
 h1, span.title-2{
   font-size: 22px;
   letter-spacing: 1px;
   font-weight: 700;
-  color: #ff00aa;
+  color: rgb(0, 113, 255);
 }
 .version{
   width: auto;
@@ -326,7 +326,7 @@ h1, span.title-2{
 }
   #open-sidebar-button{
     display: block;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(0, 113, 255);
     border-radius: 12px;
     padding: 3px;
     margin: 9px 12px 9px auto;
@@ -334,7 +334,7 @@ h1, span.title-2{
   }
   #close-sidebar-button{    
     display: block;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(0, 113, 255);
     border-radius: 14px;
     padding: 3px;
     margin: 5px;
@@ -617,7 +617,6 @@ button.buy{
   width: 100%;
   height: auto;
   margin: 12px auto;
-  border: 1px solid var(--accent-color);
   border-radius: 17px;
   display: flex;
   justify-content: center;
@@ -628,7 +627,7 @@ button.buy{
   margin: 0 4px auto;
   justify-items: center;
   align-content: center;
-  border-radius: 100%;
+  border-radius: 20%;
   margin: 5px;
 }
 h1.title-button:hover{
@@ -640,10 +639,9 @@ h1.title-button, .title-button-selected{
   height: 65px;
   background-color: rgb(199, 197, 197);
   color:rgb(100, 100, 100);
-  border-radius: 100%;
   text-align: center;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 28px;
   align-content: center;
   justify-items: center;
 }
