@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <div class="container-header">
+            <a href="#main-content" class="skip-link">Skip to main content</a>
+        <div class="logo">
+        <h1 class="title-1">WALD<span class="title-2">Shopping</span><span class="version">V 1.0</span></h1>
+        </div>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9">
+            <path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+        </button>
+        </div> 
+
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9">
+                <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+          </button>
+        </li>
+        <li class="sub-page-content/home-li"><a class="active-link" aria-current="page" href="index.html"><p class="logo">Wald<span>Shopping</span></p></a></li>
+        <li><a class="accent-link" href="index.html">Inicio</a></li>
+        <li><a href="sub-page-content/menu/products.html">Productos</a></li>
+        <li><a href="sub-page-content/menu/we.html">Nosotros</a></li>
+        <li><a href="sub-page-content/menu/blog.html">Blog</a></li>
+        <li><a href="sub-page-content/menu/help.html">Ayuda</a></li>
+      </ul>
+    </nav>  </button>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+
+    <main>
+    <div class="container-all">        
+
+        <!--CARROUSEL TOP ONE    CARROUSEL TOP ONE    CARROUSEL TOP ONE-->
+        <div class="container-slider">
+            <div class="container-carousel">      
+                <div class="carruseles" id="slider">        
+                    <section class="slider-section">
+                    <img class="img" src="img/carrousel/sobre-compras.jpg">
+                    </section>
+                    <section class="slider-section">
+                    <img class="img" src="img/carrousel/sobre-herramientas.jpg">
+                    </section>
+                    <section class="slider-section">
+                    <img class="img" src="img/carrousel/sobre-celu.jpg">
+                    </section>
+                    <section class="slider-section">
+                    <img class="img" src="img/carrousel/sobre-cosina.jpg">
+                    </section>
+                </div>
+                <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+                <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+        <!--    CARROUSEL BOTTOM    CARROUSEL BOTTOM    CARROUSEL BOTTOM-->
+                <div class="carrousel">        
+                    <div class="contenido-horizontal">
+                        <div class="item">
+                            <div class="title"><h1>Herramientas</h1></div>
+                            <a href="sub-page-content/category/pag-herramienta-1.html">
+                                <div class="img-carrousel"><img src="img/category/herramientas.jpg" alt="Sección 1"></div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="title"><h1>Muebles</h1></div>
+                            <a href="../../sub-page-content/menu/pricing.html">
+                                <div class="img-carrousel"><img src="img/category/muebles.jpg" alt="Sección 2"></div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="title"><h1>Cosina</h1></div>
+                            <a href="../../sub-page-content/menu/pricing.html">
+                                <div class="img-carrousel"><img src="img/category/cosina.jpg" alt="Sección 3"></div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="title"><h1>Indumentarias</h1></div>
+                            <a href="../../sub-page-content/menu/pricing.html">
+                                <div class="img-carrousel"><img src="img/category/indumentarias.jpg" alt="Sección 4"></div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="title"><h1>Televisores</h1></div>
+                            <a href="../../sub-page-content/menu/pricing.html">
+                                <div class="img-carrousel"><img src="img/category/smart-tv.jpg" alt="Sección 5"></div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="title"><h1>Celulares</h1></div>
+                            <a href="../../sub-page-content/menu/pricing.html">
+                                <div class="img-carrousel"><img src="img/category/celulares.jpg" alt="Sección 6"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+
+
+
+        <div class="header-article">
+            <h3>LO MÁS NUEVOS</h3>
+        </div>
+        <div class="article">
+
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/compra.html">
+                    <img src="img/img-prod-inicio/carrusel-top2_img1.jpg" alt="cartera morada">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/compra.html">
+                <div class="container-box"> 
+                    <div class="container-info">                                
+                        <p>CARTERITA PARA DECORAR</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/compra.html"><button class="buy">$ 1.000</button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/corazon-morado.html">
+                    <img src="img/img-prod-inicio/carrusel-top2_img2.jpg" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/corazon-morado.html">
+                <div class="container-box"> 
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | violeta</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/corazon-morado.html"><button class="buy">$ 1.500</button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/corazon-verde-small.html">
+                    <img src="img/img-prod-inicio/carrusel-top2_img3.jpg" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/corazon-verde-small.html">
+                <div class="container-box"> 
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | verde</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/corazon-verde-small.html"><button class="buy">$ 1.500</button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/corazon-base.html">
+                    <img src="img/img-prod-inicio/carrusel-top2_img4.jpg" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/corazon-base.html">
+                <div class="container-box"> 
+                    <div class="container-info">                                
+                        <p>Corazón para decorar</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/corazon-base.html"><button class="buy">$ 1.500</button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/pricing.html">
+                    <img src="img/img-prod-inicio/carrusel-top2_img5.jpg" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/pricing.html">
+                <div class="container-box"> 
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | Rosa blanco</p>
+                    </div></a>                            
+                    <a href="../../sub-page-content/menu/pricing.html"><button class="buy">AGOTADO</button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/pricing.html">
+                    <img src="img/img-prod-inicio/carrusel-top2_img6.jpg" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/pricing.html">
+                <div class="container-box"> 
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | amarillo</p>
+                    </div></a>                            
+                    <a href="../../sub-page-content/menu/pricing.html"><button class="buy">AGOTADO</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+
+    <!--FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER-->
+
+
+    <footer class="container-footer">
+        <div class="header-footer">
+            
+            <div class="carrousel-footer">        
+                <div class="horizontal-footer">
+                    <div class="item">
+                        <div class="title"><h1>Herramientas</h1></div>
+                        <a href="sub-page-content/category/pag-herramienta-1.html">
+                            <div class="img-carrousel"><img src="img/category/herramientas.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>Muebles</h1></div>
+                        <a href="sub-page-content/menu/pricing.html">
+                            <div class="img-carrousel"><img src="img/category/muebles.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>Cosina</h1></div>
+                        <a href="sub-page-content/menu/pricing.html">
+                            <div class="img-carrousel"><img src="img/category/cosina.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>Indumentarias</h1></div>
+                        <a href="sub-page-content/menu/pricing.html">
+                            <div class="img-carrousel"><img src="img/category/indumentarias.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>Televisores</h1></div>
+                        <a href="sub-page-content/menu/pricing.html">
+                            <div class="img-carrousel"><img src="img/category/smart-tv.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>Celulares</h1></div>
+                        <a href="sub-page-content/menu/pricing.html">
+                            <div class="img-carrousel"><img src="img/category/celulares.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-footer">
+           <p class="parrafo-footer"> ©️Copyright 2025 <br>Todos los derechos reservado<BR> <span class="p1">WALD<span class="p2">Shopping</span> 2025<br><span class="version">Version 1.0</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
