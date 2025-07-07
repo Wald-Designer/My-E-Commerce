@@ -202,13 +202,10 @@ article p{
     color: #3c3c3c;
 }
 
-.imagen {
-    width: auto;
-    height: auto;
-    border: 1px solid #3c3c3c;
-    padding: 5px;
+article img{
+    width: 100%;
+    margin-top: 20px;
 }
-
 
 /*ASIDE de los artiuclos relacionados*/
 
