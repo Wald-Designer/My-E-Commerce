@@ -1,4 +1,14 @@
-# my-shop
-Este sitio está en desarrollo, recibe actualizaciones constantemente y se puede considerar su inestabilidad, por lo tanto las actualizaciones lo van a estar mejorando.
-El sitio será liberado o puesto en publico en cuanto este bastante estable y renderizado en los proximos meses.
-Mientras tanto solo los VIP pueden acceder a este sitio.
+
+Atajo teclado:
+  Adaptar texto a la pantalla | [Alt + Z ] |
+
+**********************************************************
+
+Actualizar!!
+
+Interfáz de PRICING: 
+        Agregar un boton "ATRAS".
+        Modificar boton "COMPRAR".
+        Agregar Footer o pie de página y para toda su rama global.
+        Extras: Si es necesario modificar seccion TEXTOS.
+

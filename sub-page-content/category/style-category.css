@@ -55,7 +55,7 @@ nav a.active-link{
   border-bottom: 2px solid var(--text-color);
 }
 nav a.accent-link{
-  background-color: var(--accent-color);
+  background-color: none;
 }
 #open-sidebar-button{
   display: none;
@@ -287,7 +287,7 @@ button.buy:hover{
   margin: 0;
   padding: 0;
   top:0;
-  background-color: #f9f0f0;  
+  background-color: #fff;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.66);
   display: flex;
 }
@@ -382,7 +382,7 @@ h1, span.title-2{
     width: auto;
     font-weight: 800;
     font-size: 21px;
-    color:rgb(255, 0, 170);
+    color:rgb(0, 113, 255);
     letter-spacing: 2px;
   }
 /**
@@ -510,6 +510,27 @@ CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
 FIN CARROUSEL   FIN CARROUSEL   FIN CARROUSEL     FIN CARROUSEL
 **/
 
+.inicio{
+  width: 100%;
+  height: auto;
+}
+.volver-inicio{
+  width: 25%;
+  height: auto;
+  text-align: center;
+  padding: 1.5%;
+  margin: 2px;
+  border-radius: 5px;
+  background-color:#272832; 
+  cursor:pointer;
+  text-decoration: none;
+}
+
+h6{
+  font-size: 18px; 
+  color:rgb(0, 113, 255);
+}
+
 .header-article{
     width: 100%;
     height: auto;
@@ -628,7 +649,7 @@ button.buy{
   justify-items: center;
   align-content: center;
   border-radius: 20%;
-  margin: 5px;
+  margin: 0;
 }
 h1.title-button:hover{
   background-color: rgb(126, 164, 164);

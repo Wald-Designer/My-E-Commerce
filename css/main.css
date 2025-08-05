@@ -118,6 +118,20 @@ nav a.accent-link{
     display: block;
     text-decoration: none;
   }
+  
+  .atras{
+    width: 20%;
+    height: auto;
+    margin: 17px 0 0 5px;
+    padding: 0.5%;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #061e12;
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+
+  }
   nav{
     position: fixed;
     top: 0;
@@ -128,6 +142,7 @@ nav a.accent-link{
     border-left: 1px solid var(--hover-color);
     transition: right 300ms ease-in-out;
   }
+ 
   nav.show{
     right: 0;
   }
@@ -159,9 +174,10 @@ nav a.accent-link{
     width: auto;
     font-weight: 800;
     font-size: 21px;
-    color:rgb(255, 0, 170);
+    color: rgb(0, 113, 255);
     letter-spacing: 2px;
   }
+
 /**
 *!  ////////////////////////////////////////////////////////////////
 *?  CAROUSEL con imagenes   //////    CAROUSEL con imagenes   //////
@@ -267,9 +283,9 @@ nav a.accent-link{
   font-weight: 400;
 }
 .category{
-  width: 95%;
+  width: 80%;
   height: auto;
-  margin: auto;
+  margin: 0 auto 0 2.5%;
   padding: 0;
   font-size: 13px;
   letter-spacing: 1.4px;
@@ -283,31 +299,34 @@ nav a.accent-link{
   color: #c9c9c9;
   letter-spacing: 1.4px;
 }
-.price-product{
-  width: 95%;
-  height: auto;
-  text-align: left;
-  margin: 17px auto;
-  font-family: 'Segoe UI';
-  color: #f0f0f0;
-  font-size: 27px;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
 /**
 *! ///////////////////////////////////////////////////////////////////////////////
 *? //////   BOTON COMPRAR | BOTON COMPRAR | BOTON COMPRAR | BOTON COMPRAR  ///////
 *! ///////////////////////////////////////////////////////////////////////////////
 **/
+
 .buy{
   width: 100%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   height: auto;
+  margin: 0;
+  padding: 0 5% 0 5%;
+  box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
 }
+
+.price-product{
+  width: 95%;
+  height: auto;
+  text-align: left;
+  margin: auto;
+  font-family: 'Segoe UI';
+  color: #f0f0f0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
 buttom{
   width: auto;
   height: auto;
@@ -329,7 +348,7 @@ buttom{
 
 .open-buy {   
   background-color: #0b0d15;
-  padding: 16px 24px;
+  padding: 15px 15px;
   border-radius: 6px;
   transition: .3s;
   letter-spacing: 2.5px;
