@@ -326,16 +326,14 @@ h1, span.title-2{
 }
   #open-sidebar-button{
     display: block;
-    background-color: rgb(0, 113, 255);
-    border-radius: 12px;
+    border-radius: 0;
     padding: 3px;
     margin: 9px 12px 9px auto;
     font-size: 8px;
   }
   #close-sidebar-button{    
     display: block;
-    background-color: rgb(0, 113, 255);
-    border-radius: 14px;
+    border-radius: 0;
     padding: 3px;
     margin: 5px;
     font-size: 8px;
@@ -509,32 +507,38 @@ CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
 /**
 FIN CARROUSEL   FIN CARROUSEL   FIN CARROUSEL     FIN CARROUSEL
 **/
-
-.inicio{
-  width: 100%;
-  height: auto;
-}
-.volver-inicio{
+/**
+.inicio-top{
   width: 25%;
   height: auto;
+  margin-top: 60px;
+  position: fixed;
+}
+
+.volver-inicio-top{
+  width: 100%;
+  height: 40px;
   text-align: center;
   padding: 1.5%;
-  margin: 2px;
-  border-radius: 5px;
-  background-color:#272832; 
+  margin: none;
+  border-radius: 0px 0px 5px 5px;
+  background-color:#46a2fc; 
   cursor:pointer;
   text-decoration: none;
+  border: none;
 }
 
 h6{
-  font-size: 18px; 
-  color:rgb(0, 113, 255);
-}
+  font-family: 'Segoe UI';
+  font-size: 22px; 
+  color: rgb(64, 19, 0);
+  letter-spacing: 1.5px;
+  font-weight: 750;
+}**/
 
 .header-article{
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
 }
 
 h3{
@@ -671,7 +675,6 @@ h1.title-button, .title-button-selected{
   color: rgb(206, 207, 207);
   border: none;
 }
-
 
 .container-footer{
   width: 100%;
