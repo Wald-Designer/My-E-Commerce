@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Producto y Consulta</title>
+    <link rel="stylesheet" href="../css/estilos-galery-products.css"> </head>
+<body>
+
+    <div class="galery-product">
+        <header>
+            <h1>Producto Destacado</h1>
+        </header>
+
+        <div class="carousel-container">
+            <div class="carousel-images">
+                <img src="../../../../img/prod-inicio/img-1-COMPRA.jpg" alt="Imagen del Producto 1" class="carousel-image active">
+                <img src="../../../../img/prod-inicio/img-2-COMPRA.jpg" alt="Imagen del Producto 2" class="carousel-image">
+            </div>
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
+        </div>
+        
+
+        <div class="product-details">
+            <h2>Título del Producto</h2>
+            <p class="price">Precio: $99.99</p>
+        </div>
+
+        <section class="product-description-section">
+            <button id="toggle-description" aria-expanded="false" aria-controls="description-content">
+                Información del producto... ⬇️
+            </button>
+            <div id="description-content" class="description-content" hidden>
+                <p>Esta es la descripción detallada del producto. Aquí puedes incluir todos los detalles técnicos, materiales, garantías y beneficios que el cliente necesita conocer antes de realizar la compra. ¡Es la información oculta que se despliega!</p>
+            </div>
+        </section>
+    </div>
+
+    <hr>
+
+    <div class="formulario-consulta">
+        <h3>¿Tienes una consulta personalizada?</h3>
+        
+        <label for="consulta-texto">Haz tu consulta aquí...</label>
+        <textarea id="consulta-texto" placeholder="Escribe tu pregunta o solicitud personalizada..."></textarea>
+        
+        <button id="send-whatsapp-btn" class="whatsapp-btn">
+            Enviar Consulta por WhatsApp 📱
+        </button>
+        <p class="note">Serás redirigido a WhatsApp con tu consulta prellenada.</p>
+    </div>
+
+    <script src="../js/java-galery-products.js"></script> </body>
+</html>

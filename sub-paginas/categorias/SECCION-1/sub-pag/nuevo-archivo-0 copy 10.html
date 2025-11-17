@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caja decorada</title>
+<link rel="stylesheet" href="../css/estilos-cajitas.css">
+<script src="../../../../js/script-galeria-compra.js" defer></script>
+</head>
+<body>
+
+
+    <header>
+        
+        <div class="container-header">
+
+        <div class="button-back-header">
+            <a href="../cajitas.html">
+                <button id="button-click">
+                    ATRÁS
+                </button>
+            </a>
+        </div>
+            <a href="#main-content" class="skip-link">Skip to main content</a>
+        <div class="logo">
+        <h1 class="title-1">Ti-<span class="title-2">M</span><span class="version">V 1.1</span></h1>
+        </div>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818">
+            <path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+        </button>
+        </div> 
+
+    </header>
+    <nav id="navbar">
+    <ul>
+        <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818"><!--color original #c9c9c9-->
+                <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+        </button>
+        </li>
+        <li><a class="active-link" aria-current="page" href="../../index.html"><p class="logo">Ti-<span>M</span></p></a></li>
+        <li><a href="../../../../index.html">                               Inicio</a></li>
+        <li><a href="../../../../sub-paginas/menu/nosotros.html">           Nosotros</a></li>
+        <li><a href="../../../../sub-paginas/menu/ayuda.html">              Ayuda</a></li>
+    </ul>    
+    </nav> 
+
+<div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div><!--sirve para oscurecer fondo al activar menu lateral-->
+
+
+<!--
+<main>
+    
+    <div class="container-all">   
+        PORTADA     PORTADA      PORTADA     PORTADA     PORTADA     PORTADA
+        <div class="container-slider">
+            <div class="container-carousel"> 
+                
+                <div class="product-gallery">
+                    <div class="slider-container">
+                        <img class="slide" src="../../img/prod-inicio/img-prod-ejemplo/img-producto-ejemplo-1.png" alt="Imagen 1">
+                        <img class="slide" src="../../img/prod-inicio/img-prod-ejemplo/img-producto-ejemplo-2.png" alt="Imagen 2">
+                        <img class="slide" src="../../img/prod-inicio/img-prod-ejemplo/img-producto-ejemplo-3.png" alt="Imagen 3">
+                    </div>                
+                    <div class="header-article"><br>
+                        <h3>Titulo de producto aquí...!</h3>
+                    </div>              
+                </div>
+            </div>
+        </div>
+
+</main>
+    -->
+<main>
+
+    <div class="container-all">   
+        <!--PORTADA     PORTADA      PORTADA     PORTADA     PORTADA     PORTADA-->
+        <div class="container-slider">
+            <div class="container-carousel"> 
+                
+                <div class="product-gallery">
+                    <div class="slider-container">
+                        <img class="slide" src="../img/imagenes-productos/caja-violeta-con-corazones.jpg" alt="Imagen 1">
+                    <!--
+                        <img class="slide" src="../../../../img/prod-inicio/img-prod-ejemplo/img-producto-ejemplo-2.png" alt="Imagen 1">
+                    
+                        <img class="slide" src="../../../../img/prod-inicio/img-prod-ejemplo/img-producto-ejemplo-3.png" alt="Imagen 1">-->
+                    </div>
+                </div>
+        <div class="header-article"><br>
+            <h3>Caja violeta</h3>
+        </div>
+        <div class="product-details">
+            <h4>Detalles del producto</h4>
+            <ul>
+                <li>
+                    <h5>
+                        Dimenciones Aproximadas:
+                    </h5>
+                    <p> <span class="detalles-producto"> 0cm de alto × 0cm de ancho × 0cm de profundidad. </span></p>
+                </li>
+                <li>
+                    <h5>
+                        Color predominante:
+                    </h5>
+                    <p> <span class="detalles-producto"> Agregar mas detalles aquí.</span></p>
+                </li>
+                <li>
+                    <h5>
+                        Materiales utilizados:
+                    </h5>
+                    <p> <span class="detalles-producto"> Agregar mas detalles aquí.</span> </p>
+                </li>
+                <li>
+                    <h5>
+                        Caracteristicas:
+                    </h5>
+                    <p> <span class="detalles-producto"> Productos artesanal 100% echo a mano <br>Ideal para decoración de interiores, eventos o regalos. <br> Ligero, resistente y facil de limpiar.</span> </p>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div class="consultation-form">
+            <h4>Consultar</h4>
+            <textarea class="consultation-text" id="consulta-input" placeholder="Hola, necesito saber si esta disponible, y cual seria el precio..."></textarea>
+            <a id="whatsapp-button" href="https://wa.link/w2y4r0" target="_blank" class="whatsapp-btn">
+                Enviar consulta
+            </a>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</main>
+
+
+
+
+
+    <!--FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER-->
+
+
+    <footer class="container-footer">
+        <div class="header-footer">
+            
+            <div class="carrousel-footer">        
+                <div class="horizontal-footer">
+                    <div class="item">
+                        <div class="title"><h1>CAJITAS</h1></div>
+                        <a href="../cajitas.html">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/seccion-cajitas.png" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>FLORES</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/seccion-flores.png" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>CARTERITAS</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/seccion-carteras.png" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>CENTRO DE MESA</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/seccion-centro-de-mesa.png" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>OTRO!</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/seccion-otros.png" alt="Category"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-footer">
+            <ul class="nav-ul"><br>
+                <li class="nav-li"><a href="../../../../index.html"><span class="titulo-menu">Inicio</span></a></li><br>
+                <li class="nav-li"><a href="../../../../sub-paginas/menu/nosotros.html"><span class="titulo-menu">Nosotros</span></a></li><br>
+                <li class="nav-li"><a href="../../../../sub-paginas/menu/ayuda.html"><span class="titulo-menu">Ayuda</span></a></li><br>
+                <li class="nav-li"><a href="#"><span class="titulo-menu">Contacto</span></a></li><br>
+            </ul>
+        </div><br>
+        <div class="content-footer">
+            <p class="parrafo-footer">Página diseñada por: Waldo Ramos <br> <br> © Copyright Ti-M_Waldo Ramos 2025 <br>Todos los derechos reservado<BR> <span class="p1">Ti-<span class="p2">M</span> 2025<br><span class="version">Version 1.1</span></p><br>
+        </div>
+    </footer>
+
+<script>
+
+document.getElementById('whatsapp-button').addEventListener('click', function (e) {
+  e.preventDefault(); // Evita que el enlace se abra antes de actualizar
+
+  const consulta = document.getElementById('consulta-input').value.trim();
+
+  if (consulta === '') {
+    alert('Por favor, escribe tu consulta antes de enviar.');
+    return;
+  }
+
+  // Se añade la variable 'numero' para crear una URL más limpia
+  const numero = '5493735507262';
+  const mensaje = encodeURIComponent(consulta);
+  
+  // ¡Se construye la URL con el mensaje de forma correcta!
+  const url = https://wa.link/w2y4r0;
+
+  window.open(url, '_blank'); // Abre WhatsApp con el mensaje en una nueva pestaña
+});
+</script>
+
+
+
+</body>
+</html>

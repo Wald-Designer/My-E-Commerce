@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECCION-1</title>
+  <link rel="stylesheet" href="css/estilos-SECCION-1.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <div class="container-header">
+
+        <div class="button-back-header">
+            <a href="../../../index.html">
+                <button id="button-click">
+                    INICIO
+                </button>
+            </a>
+        </div>
+            <a href="#main-content" class="skip-link">Skip to main content</a>
+        <div class="logo">
+        <h1 class="title-1">Ti-<span class="title-2">M</span><span class="version">V 1.1</span></h1>
+        </div>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818">
+            <path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+        </button>
+        </div> 
+
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818"><!--color original #c9c9c9-->
+                <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+          </button>
+        </li>
+        <li><a class="active-link" aria-current="page" href="../../../index.html"><p class="logo">Ti-<span>M</span></p></a></li>
+        <li><a href="../../../index.html">                              Inicio              </a></li>
+        <li><a href="../../../sub-paginas/menu/nosotros.html">          Nosotros            </a></li>
+        <li><a href="../../../sub-paginas/menu/ayuda.html">             Ayuda               </a></li>
+      </ul>
+    </nav> 
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+    <main>
+ 
+    <div class="container-all">        
+
+        <!--PORTADA     PORTADA      PORTADA     PORTADA     PORTADA     PORTADA-->
+        <div class="container-slider">
+            <div class="container-carousel">      
+                <div class="carruseles" id="slider">        
+                    <section class="slider-section">
+                    <img class="img" src="../../../img/inicio-portada-1.jpg">
+                    </section>
+                            
+                    <section class="slider-section">
+                    <img class="img" src="../../../img/inicio-portada-2.jpg">
+                    </section>
+                    <section class="slider-section">
+                    <img class="img" src="../../../img/inicio-portada-3.jpg">
+                    </section>
+                    <section class="slider-section">
+                    <img class="img" src="../../../img/inicio-portada-4.jpg">
+                    </section>
+                </div>
+                <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+                <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+
+
+
+        <div class="header-article"><br>
+            <h3>Una frace aquí...</h3><p class="text-spam">Una frace que promueva el producto...</P><br>
+        </div>
+        <div class="article">
+
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="Titulo aqui">
+                    </a>
+                </div>
+                <div class="container-box">                           
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$2.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="container-box">                         
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$1.500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="container-box">                           
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$2.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="container-box">                          
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$2.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+                
+                <div class="container-box">                   
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$1.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="container-box">    
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="container-box">    
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$2.500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="container-box">    
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$1.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="container-box">    
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="#">
+                    <img src="../../../img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="container-box">    
+                    <a href="#">
+                        <button class="buy">
+                            <section class="precios">$1.500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </main>
+    
+    <!--FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER-->
+
+
+    <footer class="container-footer">
+        <div class="header-footer">
+            
+            <div class="carrousel-footer">        
+                <div class="horizontal-footer">
+                    <div class="item">
+                        <div class="title"><h1>SECCION 1</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 2</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 3</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 4</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 5</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-footer">
+            <ul class="nav-ul"><br>
+                <li class="nav-li"><a href="../../../index.html"><span class="titulo-menu">Inicio</span></a></li><br>
+                <li class="nav-li"><a href="../../../sub-paginas/menu/nosotros.html"><span class="titulo-menu">Nosotros</span></a></li><br>
+                <li class="nav-li"><a href="../../../sub-paginas/menu/ayuda.html"><span class="titulo-menu">Ayuda</span></a></li><br>
+                <li class="nav-li"><a href="#"><span class="titulo-menu">Contacto</span></a></li><br>
+            </ul>
+        </div><br>
+        <div class="content-footer">
+            <p class="parrafo-footer">Desarrollado por: Wald-Studio.com <br> <br> © Copyright Ti-M_Waldo Ramos 2025 <br>Todos los derechos reservado<BR> <span class="p1">Ti-<span class="p2">M</span> 2025<br><span class="version">Version 1.1</span></p><br>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÁGINA PRINCIPAL</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,100 +13,82 @@
         <div class="container-header">
             <a href="#main-content" class="skip-link">Skip to main content</a>
         <div class="logo">
-        <h1 class="title-1">WALD<span class="title-2">Shopping</span><span class="version">V 1.1</span></h1>
+        <h1 class="title-1">Ti-<span class="title-2">M</span><span class="version">V 1.1</span></h1>
         </div>
         <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
-          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818">
             <path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
         </button>
         </div> 
 
     </header>
     <nav id="navbar">
-      <ul>
-        <li>
-          <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
-            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818"><!--color original #c9c9c9-->
-                <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
-          </button>
-        </li>
-        <li><a class="active-link" aria-current="page" href="index.html"><p class="logo">WALD<span>Shopping</span></p></a></li>
-        <li><a class="accent-link" href="index.html">           Inicio</a></li>
-        <li><a href="sub-page-content/menu/data/products.html"> Productos</a></li>
-        <li><a href="sub-page-content/menu/data/we.html">       Nosotros</a></li>
-        <li><a href="sub-page-content/menu/cursos/cursos.html"> Cursos en linea</a></li>
-        <li><a href="sub-page-content/menu/data/help.html">     Ayuda</a></li>
-      </ul>
-    </nav>  </button>
-  
-  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+        <ul>
+            <li>
+                <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818"><!--color original #c9c9c9-->
+                    <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+                </button>
+            </li>
+            <li><a class="active-link" aria-current="page" href="index.html"><p class="logo">Ti-<span>M</span></p></a></li>
+            <li><a class="accent-link" href="#">                    Inicio</a></li>
+            <li><a href="sub-paginas/menu/nosotros.html">           Nosotros</a></li>
+            <li><a href="sub-paginas/menu/ayuda.html">              Ayuda</a></li>
+        </ul>    
+    </nav> 
 
+<div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div><!--sirve para oscurecer fondo al activar menu lateral-->
 
-    <main>
+<main>
+
     <div class="container-all">        
 
-        <!--CARROUSEL TOP ONE    CARROUSEL TOP ONE    CARROUSEL TOP ONE-->
+        <!--PORTADA     PORTADA      PORTADA     PORTADA     PORTADA     PORTADA-->
         <div class="container-slider">
             <div class="container-carousel">      
                 <div class="carruseles" id="slider">        
                     <section class="slider-section">
-                    <img class="img" src="img/carrousel/sobre-compras.jpg">
-                    </section>
-                    <section class="slider-section">
-                    <img class="img" src="img/carrousel/sobre-herramientas.jpg">
-                    </section>
-                    <section class="slider-section">
-                    <img class="img" src="img/carrousel/sobre-celu.jpg">
-                    </section>
-                    <section class="slider-section">
-                    <img class="img" src="img/carrousel/sobre-cosina.jpg">
+                    <img class="img" src="img/inicio-portada-4.jpg">
                     </section>
                 </div>
-                <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
-                <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+
                 
-        <!--    CARROUSEL INTERMEDIE    CARROUSEL INTERMEDIE    CARROUSEL INTERMEDIE-->
+                <!--    CARRUSEL CATEGORIAS     CARRUSEL CATEGORIAS     CARRUSEL CATEGORIAS     CARRUSEL CATEGORIAS-->
+            
                 <div class="carrousel">        
                     <div class="contenido-horizontal">
                         <div class="item">
-                            <div class="title"><h1>Herramientas</h1></div>
-                            <a href="sub-page-content/category/pag-herramienta-1.html">
-                                <div class="img-carrousel"><img src="img/category/herramientas.jpg" alt="Sección 1"></div>
+                            <div class="title"><h1>SECCION 1</h1></div>
+                            <a href="sub-paginas/categorias/SECCION-1/SECCION-1.html">
+                                <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Cajitas"></div>
                             </a>
                         </div>
 
                         <div class="item">
-                            <div class="title"><h1>Muebles</h1></div>
-                            <a href="sub-page-content/menu/data/pricing.html">
-                                <div class="img-carrousel"><img src="img/category/muebles.jpg" alt="Sección 2"></div>
+                            <div class="title"><h1>SECCION 2</h1></div>
+                            <a href="#">
+                                <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Flores"></div>
                             </a>
                         </div>
 
                         <div class="item">
-                            <div class="title"><h1>Cosina</h1></div>
-                            <a href="sub-page-content/menu/data/pricing.html">
-                                <div class="img-carrousel"><img src="img/category/cosina.jpg" alt="Sección 3"></div>
+                            <div class="title"><h1>SECCION 3</h1></div>
+                            <a href="#">
+                                <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Carteras"></div>
                             </a>
                         </div>
 
                         <div class="item">
-                            <div class="title"><h1>Indumentarias</h1></div>
-                            <a href="sub-page-content/menu/data/pricing.html">
-                                <div class="img-carrousel"><img src="img/category/indumentarias.jpg" alt="Sección 4"></div>
+                            <div class="title"><h1>SECCION 4</h1></div>
+                            <a href="#">
+                                <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Centro de mesa"></div>
                             </a>
                         </div>
 
                         <div class="item">
-                            <div class="title"><h1>Televisores</h1></div>
-                            <a href="sub-page-content/menu/data/pricing.html">
-                                <div class="img-carrousel"><img src="img/category/smart-tv.jpg" alt="Sección 5"></div>
-                            </a>
-                        </div>
-
-                        <div class="item">
-                            <div class="title"><h1>Celulares</h1></div>
-                            <a href="sub-page-content/menu/data/pricing.html">
-                                <div class="img-carrousel"><img src="img/category/celulares.jpg" alt="Sección 6"></div>
+                            <div class="title"><h1>SECCION 5</h1></div>
+                            <a href="#">
+                                <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Otros"></div>
                             </a>
                         </div>
                     </div>
@@ -116,23 +98,27 @@
 
 
 
+        <!--APARTADO PRODUCTOS NUEVOS   APARTADO PRODUCTOS NUEVOS   APARTADO PRODUCTOS NUEVOS   APARTADO PRODUCTOS NUEVOS-->
+
+
+
         <div class="header-article"><br>
-            <h3>Lo más reciente!</h3><br><br>
+            <h3>MÁS DESTACADO!</h3><br>
         </div>
         <div class="article">
 
             <div class="box-article">
                 <div class="img-box">
-                    <a href="sub-page-content/shopping-interface/compra.html">
-                    <img src="img/img-prod-inicio/carrusel-top2_img1.jpg" alt="cartera morada">
+                    <a href="#">
+                    <img src="img/prod-inicio/img-1.jpg" alt="cartera morada">
                     </a>
                 </div>
-                <a href="sub-page-content/shopping-interface/compra.html">
-                <div class="container-box"> 
-                    <div class="container-info">                                
-                        <p>Titulo de producto</p>
-                    </div></a>                            
-                    <a href="sub-page-content/shopping-interface/compra.html"><button class="buy">$ 1.000</button></a>
+                <div class="container-box">                           
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                        <button class="buy">
+                            <section class="precios">$2.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
                 </div>
             </div>
 
@@ -140,16 +126,16 @@
             
             <div class="box-article">
                 <div class="img-box">
-                    <a href="sub-page-content/shopping-interface/compra.html">
-                    <img src="img/img-prod-inicio/carrusel-top2_img2.jpg" alt="">
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                    <img src="img/prod-inicio/img-1.jpg" alt="">
                     </a>
                 </div>
-                <a href="sub-page-content/shopping-interface/compra.html">
-                <div class="container-box"> 
-                    <div class="container-info">                                
-                        <p>Titulo de producto</p>
-                    </div></a>                            
-                    <a href="sub-page-content/shopping-interface/compra.html"><button class="buy">$ 1.500</button></a>
+                <div class="container-box">                         
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                        <button class="buy">
+                            <section class="precios">$2.500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
                 </div>
             </div>
 
@@ -157,16 +143,16 @@
             
             <div class="box-article">
                 <div class="img-box">
-                    <a href="sub-page-content/shopping-interface/compra.html">
-                    <img src="img/img-prod-inicio/carrusel-top2_img3.jpg" alt="">
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                    <img src="img/prod-inicio/img-1.jpg" alt="">
                     </a>
                 </div>
-                <a href="sub-page-content/shopping-interface/compra.html">
-                <div class="container-box"> 
-                    <div class="container-info">                                
-                        <p>Titulo de producto</p>
-                    </div></a>                            
-                    <a href="sub-page-content/shopping-interface/compra.html"><button class="buy">$ 1.500</button></a>
+                <div class="container-box">                           
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                        <button class="buy">
+                            <section class="precios">$1.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
                 </div>
             </div>
 
@@ -174,35 +160,16 @@
             
             <div class="box-article">
                 <div class="img-box">
-                    <a href="sub-page-content/shopping-interface/compra.html">
-                    <img src="img/img-prod-inicio/carrusel-top2_img4.jpg" alt="">
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                    <img src="img/prod-inicio/img-1.jpg" alt="">
                     </a>
                 </div>
-                <a href="sub-page-content/shopping-interface/compra.html">
-                <div class="container-box"> 
-                    <div class="container-info">                                
-                        <p>Titulo de producto</p>
-                    </div></a>                            
-                    <a href="sub-page-content/shopping-interface/compra.html"><button class="buy">$ 1.500</button></a>
-                </div>
-            </div>
-
-            <!--///////////////////////////////////////////////////////////////-->
-            
-            <div class="box-article">
-
-                <div class="img-box">
-                    <a href="../../sub-page-content/shopping-interface/agotado.html">
-                    <img src="img/img-prod-inicio/carrusel-top2_img5.jpg" alt="">
-                    </a>
-                </div>
-
-                <a href="../../sub-page-content/shopping-interface/agotado.html">
-                <div class="container-box"> 
-                    <div class="container-info">                                
-                        <p>Titulo de producto</p>
-                    </div></a>                            
-                    <a href="../../sub-page-content/shopping-interface/agotado.html"><button class="buy">AGOTADO</button></a>
+                <div class="container-box">                          
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                        <button class="buy">
+                            <section class="precios">$1.000</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
                 </div>
             </div>
 
@@ -211,24 +178,43 @@
             <div class="box-article">
 
                 <div class="img-box">
-                    <a href="../../sub-page-content/shopping-interface/agotado.html">
-                    <img src="img/img-prod-inicio/carrusel-top2_img6.jpg" alt="">
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                    <img src="img/prod-inicio/img-1.jpg" alt="">
+                    </a>
+                </div>
+                
+                <div class="container-box">                   
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                        <button class="buy">
+                            <section class="precios">$500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                    <img src="img/prod-inicio/img-1.jpg" alt="">
                     </a>
                 </div>
 
-                <a href="../../sub-page-content/shopping-interface/agotado.html">
-                <div class="container-box"> 
-                    <div class="container-info">                                
-                        <p>Titulo de producto</p>
-                    </div></a>                            
-                    <a href="../../sub-page-content/shopping-interface/agotado.html"><button class="buy">AGOTADO</button></a>
+                <div class="container-box">    
+                    <a href="sub-paginas/galeria-compras/articulo-1.html">
+                        <button class="buy">
+                            <section class="precios">$500</section>
+                            <section class="detalles">Más detalles...</section>
+                        </button></a>
                 </div>
             </div>
         </div>
     </div>
+
     </main>
-
-
+    
     <!--FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER-->
 
 
@@ -238,47 +224,49 @@
             <div class="carrousel-footer">        
                 <div class="horizontal-footer">
                     <div class="item">
-                        <div class="title"><h1>Herramientas</h1></div>
-                        <a href="sub-page-content/category/pag-herramienta-1.html">
-                            <div class="img-carrousel"><img src="img/category/herramientas.jpg" alt="Category"></div>
+                        <div class="title"><h1>SECCION 1</h1></div>
+                        <a href="sub-paginas/categorias/SECCION-1/SECCION-1.html">
+                            <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
                         </a>
                     </div>
                     <div class="item">
-                        <div class="title"><h1>Muebles</h1></div>
-                        <a href="sub-page-content/menu/data/pricing.html">
-                            <div class="img-carrousel"><img src="img/category/muebles.jpg" alt="Category"></div>
+                        <div class="title"><h1>SECCION 2</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
                         </a>
                     </div>
                     <div class="item">
-                        <div class="title"><h1>Cosina</h1></div>
-                        <a href="sub-page-content/menu/data/pricing.html">
-                            <div class="img-carrousel"><img src="img/category/cosina.jpg" alt="Category"></div>
+                        <div class="title"><h1>SECCION 3</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
                         </a>
                     </div>
                     <div class="item">
-                        <div class="title"><h1>Indumentarias</h1></div>
-                        <a href="sub-page-content/menu/data/pricing.html">
-                            <div class="img-carrousel"><img src="img/category/indumentarias.jpg" alt="Category"></div>
+                        <div class="title"><h1>SECCION 4</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
                         </a>
                     </div>
                     <div class="item">
-                        <div class="title"><h1>Televisores</h1></div>
-                        <a href="sub-page-content/menu/data/pricing.html">
-                            <div class="img-carrousel"><img src="img/category/smart-tv.jpg" alt="Category"></div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <div class="title"><h1>Celulares</h1></div>
-                        <a href="sub-page-content/menu/data/pricing.html">
-                            <div class="img-carrousel"><img src="img/category/celulares.jpg" alt="Category"></div>
+                        <div class="title"><h1>SECCION 5</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
                         </a>
                     </div>
                 </div>
-            </div>
+            </div><br>
 
         </div>
+        <div class="nav-footer">
+            <ul class="nav-ul"><br>
+                <li class="nav-li"><a href="#"><span class="titulo-menu">Inicio</span></a></li><br>
+                <li class="nav-li"><a href="sub-paginas/menu/nosotros.html"><span class="titulo-menu">Nosotros</span></a></li><br>
+                <li class="nav-li"><a href="sub-paginas/menu/ayuda.html"><span class="titulo-menu">Ayuda</span></a></li><br>
+                <li class="nav-li"><a href="#"><span class="titulo-menu">Contacto</span></a></li><br>
+            </ul>
+        </div><br>
         <div class="content-footer">
-           <p class="parrafo-footer"> © Copyright 2025 <br>Todos los derechos reservado<BR> <span class="p1">WALD<span class="p2">Shopping</span> 2025<br><span class="version">Version 1.1</span></p>
+            <p class="parrafo-footer">Desarrollado por: Wald-Studio.com <br> <br> © Copyright Ti-M_Waldo Ramos 2025 <br>Todos los derechos reservado<BR> <span class="p1">Ti-<span class="p2">M</span> 2025<br><span class="version">Version 1.1</span></p><br>
         </div>
     </footer>
 

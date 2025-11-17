@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARTICULO | 1</title>
+<link rel="stylesheet" href="../css/estilos-SECCION-1.css">
+<script src="../../../../js/script-galeria-compra.js" defer></script>
+</head>
+<body>
+
+
+    <header>
+        
+        <div class="container-header">
+
+        <div class="button-back-header">
+            <a href="../SECCION-1.html">
+                <button id="button-click">
+                    ATRÁS
+                </button>
+            </a>
+        </div>
+        <div class="logo">
+        <h1 class="title-1">Ti-<span class="title-2">M</span><span class="version">V 1.1</span></h1>
+        </div>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818">
+            <path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+        </button>
+        </div> 
+
+    </header>
+    <nav id="navbar">
+    <ul>
+        <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#181818"><!--color original #c9c9c9-->
+                <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+        </button>
+        </li>
+        <li><a class="active-link" aria-current="page" href="../../index.html"><p class="logo">Ti-<span>M</span></p></a></li>
+        <li><a href="../../../../index.html">                               Inicio</a></li>
+        <li><a href="../../../../sub-paginas/menu/nosotros.html">           Nosotros</a></li>
+        <li><a href="../../../../sub-paginas/menu/ayuda.html">              Ayuda</a></li>
+    </ul>    
+    </nav> 
+
+<div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div><!--sirve para oscurecer fondo al activar menu lateral-->
+
+
+<!--
+<main>
+
+    <div class="container-all">   
+        <!-- PORTADA     PORTADA      PORTADA     PORTADA     PORTADA     PORTADA-->
+        <div class="container-slider">
+            <div class="container-carousel"> 
+                
+                <div class="product-gallery">
+                    <div class="slider-container">
+                        <img class="slide" src="../../../../img/prod-inicio/img-1-COMPRA.jpg" alt="Imagen 1">
+                        <img class="slide" src="../../../../img/prod-inicio/img-2-COMPRA.jpg" alt="Imagen 2">
+                    </div> 
+        <div class="header-article"><br>
+            <h3> NOMBRE DEL PRODUCTO. </h3>
+        </div>
+        
+    <!-- Contenedor principal de detalles del producto -->
+    <div class="w-full max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:max-w-md">
+        
+        <!-- Encabezado con el título y el botón de activación -->
+        <div id="details-trigger" class="flex items-center justify-between p-5 bg-gray-50 border-b border-gray-200 cursor-pointer select-none">
+            <h2 class="text-xl font-bold text-gray-700">Detalles del producto...</h2>
+            <!-- Icono de flecha SVG -->
+            <svg id="arrow-icon" class="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </div>
+
+        <!-- Contenido de los detalles del producto (inicialmente oculto) -->
+        <div id="product-details-content">
+            <div class="p-5 space-y-4 text-gray-700">
+                <!-- Dimensiones -->
+                <div>
+                    <span class="font-semibold text-gray-650"><strong id="resaltar">Dimensiones:</strong></span> 
+                    <p class="inline ml-2">25 cm x 15 cm x 10 cm</p>
+                </div>
+                <!-- Color -->
+                <div>
+                    <span class="font-semibold text-gray-650"><strong id="resaltar">Color:</strong></span> 
+                    <p class="inline ml-2">Rosas moradas con hojas verdes y maseta negro.</p>
+                </div>
+                <!-- Materiales -->
+                <div>
+                    <span class="font-semibold text-gray-650"><strong id="resaltar">Materiales:</strong></span> 
+                    <p class="inline ml-2">Goma eva con glitter, papel crepe y carton como maceta.</p>
+                </div>
+                <!-- Características -->
+                <div>
+                    <span class="font-semibold text-gray-650"><strong id="resaltar">Características:</strong></span>
+                    
+                    <p class="inline ml-2">Productos artesanales 100% echo a mano ideal para decoración de interiores, eventos o regalos. Ligero, resistente y facil de limpiar.</p>
+                    <!--<ul class="list-disc list-inside mt-2 space-y-1">
+                        <li>Resistente al agua (IP67)</li>
+                        <li>Batería de larga duración (20 horas)</li>
+                        <li>Carga rápida USB-C</li>
+                        <li>Bluetooth 5.0</li>
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div class="bg-white rounded-3xl shadow-2xl p-8 max-w-sm w-full mx-auto transform transition-all hover:scale-105 duration-300">
+        <div class="text-center mb-6">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">Envía tu Consulta</h1>
+        </div>
+
+        <div class="mb-6">
+            <label for="whatsappMessage" class="block text-gray-700 font-medium mb-2">Consultar</label>
+            <textarea id="whatsappMessage" rows="6" class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200 resize-none leading-relaxed" placeholder="Hola, me gustaría saber más sobre este articulo."></textarea>
+        </div>
+
+        <div class="text-center">
+            <button id="sendButton" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-100">
+                Enviar Consulta
+            </button>
+        </div>
+    </div>
+
+
+
+
+    </div>
+</main>
+
+
+
+
+
+    <!--FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER      FOOTER-->
+
+
+    <footer class="container-footer">
+        <div class="header-footer">
+            
+            <div class="carrousel-footer">        
+                <div class="horizontal-footer">
+                    <div class="item">
+                        <div class="title"><h1>SECCION 1</h1></div>
+                        <a href="../SECCION-1.html">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 2</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 3</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 4</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="title"><h1>SECCION 5</h1></div>
+                        <a href="#">
+                            <div class="img-carrousel"><img src="../../../../img/carrusel-categorias/CARRUSEL-IMG.jpg" alt="Category"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-footer">
+            <ul class="nav-ul"><br>
+                <li class="nav-li"><a href="../../../../index.html"><span class="titulo-menu">Inicio</span></a></li><br>
+                <li class="nav-li"><a href="../../../../sub-paginas/menu/nosotros.html"><span class="titulo-menu">Nosotros</span></a></li><br>
+                <li class="nav-li"><a href="../../../../sub-paginas/menu/ayuda.html"><span class="titulo-menu">Ayuda</span></a></li><br>
+                <li class="nav-li"><a href="#"><span class="titulo-menu">Contacto</span></a></li><br>
+            </ul>
+        </div><br>
+        <div class="content-footer">
+            <p class="parrafo-footer">Página diseñada por: Waldo Ramos <br> <br> © Copyright Ti-M_Waldo Ramos 2025 <br>Todos los derechos reservado<BR> <span class="p1">Ti-<span class="p2">M</span> 2025<br><span class="version">Version 1.1</span></p><br>
+        </div>
+    </footer>
+
+<script>
+
+document.getElementById('whatsapp-button').addEventListener('click', function (e) {
+  e.preventDefault(); // Evita que el enlace se abra antes de actualizar
+
+  const consulta = document.getElementById('consulta-input').value.trim();
+
+  if (consulta === '') {
+    alert('Por favor, escribe tu consulta antes de enviar.');
+    return;
+  }
+
+  // Se añade la variable 'numero' para crear una URL más limpia
+  const numero = '5493735507262';
+  const mensaje = encodeURIComponent(consulta);
+  
+  // ¡Se construye la URL con el mensaje de forma correcta!
+  const url = https://wa.link/w2y4r0;
+
+  window.open(url, '_blank'); // Abre WhatsApp con el mensaje en una nueva pestaña
+});
+</script>
+
+
+
+</body>
+</html>
